@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.scss";
-import { ToDoList } from "./pages/ToDoList";
+import "./assest/scss/normalize.scss";
+import "./assest/scss/style.scss";
+import { ToDoListPage } from "./pages/ToDoListPage";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <ToDoList />
+    <ToDoListPage />
   </React.StrictMode>
 );
 
